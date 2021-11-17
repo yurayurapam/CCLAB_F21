@@ -1,0 +1,20 @@
+h3 {
+  color: darkred;
+  font-family: sans-serif;
+}
+p {
+  font-size: 18px;
+}
+
+li {
+  color: darkblue;
+}
+
+p {
+  color: gray;
+}
+
+.my-title {
+  font-size: 32px;
+  font-family: fantasy;
+}
