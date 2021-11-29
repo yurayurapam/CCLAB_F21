@@ -1,0 +1,13 @@
+h1 {
+  color: darkblue;
+  font-family: fantasy;
+  font-size: 40px;
+}
+
+#canva1{
+  position: absolute;
+}
+
+#canva2{
+  position: absolute;
+}
