@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TAKASHI MURAKAMI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/lib/p5.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <h1>PAINTING MODE - random painting with shapes</h1>
+
+    <div class="row">
+      <div class="column side" style="background-color: white;">
+      <button type="button buttonC" onclick= "drawCircle()">circle</button>
+      <button type="button buttoR" onclick= "drawRect()">rectangle</button>
+      <button type="button buttonT" onclick="drawTri()">triangle</button></div>
+
+      <div class="column middle"><script src="js/2script.js" type="text/javascript"></script></div>
+
+
+      <div class="column side" style="background-color: white;">
+      <input type="range" min="0" max="255" value="100" id="slider1">
+      <input type="range" min="0" max="255" value="100" id="slider2">
+      <input type="range" min="0" max="255" value="100" id="slider3">
+      <input type="range" min="0" max="255" value="100" id="slider4">
+    </div>
+
+    <!-- <div class="footer" style="background-color: white;">
+      <a href="mainindex.html">back to homepage</a>
+      <a href="1index.html">portrait mode</a>
+      <a href="pindex.html">Piet Mondrian</a>
+    </div> -->
+
+    <a href="mainindex.html">back to homepage</a>
+    <script id="canvas" src="js/tscript.js" type="text/javascript"></script>
+  </body>
+</html>

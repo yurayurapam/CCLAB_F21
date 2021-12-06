@@ -1,0 +1,256 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.opening {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  
+  /* color: skyblue; */
+  /* font-style: italic; */
+
+}
+
+#title {
+  /* color:black;
+  background-color: white; */
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  font-size: 45px;
+  font-style: bold;
+
+  /* opacity: 80%; */
+}
+
+.direction {
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  text-align: center;
+  /* opacity: 80%; */
+}
+
+
+
+canvas {
+  display: block;
+}
+
+#p5-canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -40%);
+}
+
+
+#div1 {
+  background-color: black;
+  width:40%;
+  float: left;
+}
+
+#div2 {
+  background-color: black;
+  width: 40%;
+  float: right;
+}
+
+
+
+.intro #pm {
+  position: absolute;
+  left: 15%;
+  float: left;
+  text-align: center;
+  background-color: beige;
+  width: 70%;
+  margin: 10px;
+  top: 520px;
+}
+
+.img {
+  position: absolute;
+  left: 500px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+#pmi{
+  font-style: bold;
+  font-size: 120%;
+  font-style: italic;
+  top: 640px;
+  position: absolute;
+  background-color: linen;
+  /* width: 50% */
+  left:300px;
+  right:300px;
+}
+
+#pmi1{
+  font-style: bold;
+  top: 680px;
+  position: absolute;
+  /* background-color: linen; */
+  /* width: 50% */
+  left:300px;
+  right:300px;
+}
+#pmi2{
+  font-style: bold;
+  top: 730px;
+  position: absolute;
+  /* background-color: linen; */
+  /* width: 50% */
+  left:300px;
+  right:300px;
+}
+
+#cmi {
+  font-style: bold;
+  top: 640px;
+  position: absolute;
+  /* background-color: linen; */
+  /* width: 50% */
+  left:300px;
+  right:300px;
+}
+
+#cmi1 {
+  font-style: bold;
+  top: 690px;
+  position: absolute;
+  /* background-color: linen; */
+  /* width: 50% */
+  left:300px;
+  right:300px;
+}
+
+#cmi2 {
+  font-style: bold;
+  top: 770px;
+  position: absolute;
+  /* background-color: linen; */
+  /* width: 50% */
+  left:300px;
+  right:300px;
+}
+
+
+div.gallery {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.linksright {
+  /* bottom: 200px; */
+  /* top: 600px; */
+  /* position: absolute; */
+  float: right;
+}
+.linksleft {
+  /* bottom: 200px; */
+  /* top: 600px; */
+  /* position: absolute; */
+  float: left;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  font-style: bold;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  background-color: linen;
+  color: black;
+  padding: 14px 25px;
+  font-size: 16px;
+  font-style: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#clean {
+  background-color: lightgrey;
+}
+
+#save {
+  background-color: lightgrey;
+}
+
+.top1 {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  background-color: linen;
+  text-align: center;
+  color: dimgrey;
+}
+
+.bottom {
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  top: 850px;
+}
